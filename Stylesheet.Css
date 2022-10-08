@@ -3,17 +3,20 @@
 .box{
 	width: 30%;
 	margin: 15px 15px;
+	box-sizing: border-box;
 }
 }
 
 @media(min-width: 768px) and (max-width: 991px)
 {
 #box1 , #box2{
-	width: 50%;
+	width: 47%;
+	box-sizing: border-box;
+	margin: 15px 10px;
 }
-#test > div{
+#box3 {
 	width: 100%;
-	background-color: red !important;
+	box-sizing: border-box;
 }
 }
 
@@ -29,7 +32,7 @@
 	background-color: lightgray;
 	float: left;
 	
-	box-sizing: border-box;
+	
 	border: solid 1px black;
 	
 	position: relative;
