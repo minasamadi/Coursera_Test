@@ -1,0 +1,81 @@
+@media(min-width: 992px)
+{
+.box{
+	width: 30%;
+	margin: 15px 15px;
+}
+}
+
+@media(min-width: 768px  max-width: 991px)
+{
+#box1 , #box2{
+	width: 50%;
+}
+#test > div{
+	width: 100%;
+	background-color: red !important;
+}
+}
+
+
+@media(max-width: 767px)
+{
+.box{
+	width: 100%;
+	margin-bottom: 20px;
+}
+}
+.box{
+	background-color: lightgray;
+	float: left;
+	
+	box-sizing: border-box;
+	border: solid 1px black;
+	
+	position: relative;
+}
+
+#pageTitle
+{
+	text-align: center;
+}
+
+.boxTitle
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 20px;
+	text-align: justify-all;
+	margin: 0 0 ; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+
+}
+
+#boxTitle1{
+	background-color: hotpink;
+}
+#boxTitle2
+{
+	background-color: seagreen;
+}
+#boxTitle3
+{
+	background-color: slateblue;
+}
+.textContainer
+{
+text-align: justify;
+padding: 40px 30px;
+}
+
+#boxContainer{
+	padding-right: 5%;
+	padding-left: 5%;
+}
